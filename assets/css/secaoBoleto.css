@@ -1,38 +1,38 @@
-.secaoTransacao__boleto{
-    box-sizing: inherit;
+.secaoTransacao__boleto {
+  box-sizing: inherit;
 
-    width: 100%;
-    height: 382px;
-    padding: 7rem 0;
+  width: 100%;
+  height: 382px;
+  padding: 7rem 0;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.secaoTransacao__boleto img{
-    height: 120px;
-    width: 120px;
+.secaoTransacao__boleto img {
+  height: 120px;
+  width: 120px;
 }
-.secaoTransacao__boleto h2{
-    width: 50%;
-    font-size: var(--texto);
-    font-weight: var(--texto-bold);
+.secaoTransacao__boleto h2 {
+  width: 50%;
+  font-size: var(--texto);
+  font-weight: var(--texto-bold);
 }
-.secaoTransacao__boleto p{
-    width: 70%;
-    font-size: var(--texto);
+.secaoTransacao__boleto p {
+  width: 70%;
+  font-size: var(--texto);
 }
-.secaoTransacao__boleto input{
-    box-sizing: border-box;
-    padding: 0.5rem 0.8rem 0.5rem 5.3rem;
-    width: 100%;
-    height: 80px;
+.secaoTransacao__boleto input {
+  box-sizing: border-box;
+  padding: 0.5rem 0.8rem 0.5rem 5.3rem;
+  width: 100%;
+  height: 80px;
 
-    background-color: var( --cinza-claro-fundo);
-    border: 1px solid var(--cinza-claro-borda);
-    border-radius: var(--borda-curva);
-    box-shadow: var(--sombra);
+  background-color: var(--cinza-claro-fundo);
+  border: 1px solid var(--cinza-claro-borda);
+  border-radius: var(--borda-curva);
+  box-shadow: var(--sombra);
 }
 input::-webkit-inner-spin-button {
-    display: none;
+  display: none;
 }

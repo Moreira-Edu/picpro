@@ -1,21 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
-:root{
-    --verde-principal: #4a8864;
-    --verde-principal-escuro: #1F6F54;
-    --branco-transparente: rgba(255, 255, 255, 0.4);
-    --branco: #fff;
-    --preto: #000;
-    --preto-transparente: rgba(0, 0, 0, 0.15);
-    --cinza-claro-fundo: #F4F4F4;
-    --cinza-claro-borda: #D2D2D2;
-    --sombra:  2px 2px 4px rgba(0, 0, 0, 0.15);
-    --padrao: 'Poppins', sans-serif;
-    --texto: 1.8rem;
-    --texto-regular: 400;
-    --texto-medio: 500;
-    --texto-bold: 700;
-    --borda-curva:  1.222rem;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+:root {
+  --verde-principal: #4a8864;
+  --verde-principal-escuro: #1f6f54;
+  --branco-transparente: rgba(255, 255, 255, 0.4);
+  --branco: #fff;
+  --preto: #000;
+  --preto-transparente: rgba(0, 0, 0, 0.15);
+  --cinza-claro-fundo: #f4f4f4;
+  --cinza-claro-borda: #d2d2d2;
+  --sombra: 2px 2px 4px rgba(0, 0, 0, 0.15);
+  --padrao: "Poppins", sans-serif;
+  --texto: 1.8rem;
+  --texto-regular: 400;
+  --texto-medio: 500;
+  --texto-bold: 700;
+  --borda-curva: 1.222rem;
 }
-.invisivel{
-    display: none!important;
-  }
+.invisivel {
+  display: none !important;
+}
