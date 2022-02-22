@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/reset.css">
     <title>PicPro</title>
   </head>
 
@@ -26,11 +25,23 @@
       <div class="container">
       <section class="secaoDetalhesConta">
           <div class="secaoDetalhesConta__sobreUsuario">
-              <img src="./assets/img/usuario.png" alt="Ícone do usuário">
-              <p>Olá, <strong>@mariaporcina</strong></p>
+              <div class="secaoDetalhesConta__areaUsuario">
+                <img src="./assets/img/usuario.png" alt="Ícone do usuário">
+                <p>Olá, <br>
+                  <strong>@mariaporcina</strong></p>
+              </div>
+                <div class="secaoDetalhesConta__servicoUsuario">
+                    <img src="assets/img/presente.png" alt="">
+                    <img src="assets/img/chat.png" alt="">
+                </div>
           </div>
+         
           <div class="secaoDetalhesConta__sobreSaldo">
-              <p>Saldo PicPay, <strong>R$ 0,00</strong></p>
+              <div>
+                <p>Saldo PicPay<br>
+                 <strong>R$ 0,00<span><img src="assets/img/visualizar.png" alt="icone de visualização do saldo"></span></strong></p>
+              </div>
+              
               <button>Extrato</button>
           </div>
           <ul class="secaoDetalhesConta__opcoesTransacoes">

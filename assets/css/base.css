@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 :root{
     --verde-principal: #4a8864;
     --verde-principal-escuro: #1F6F54;
@@ -10,7 +10,8 @@
     --cinza-claro-borda: #D2D2D2;
     --sombra:  2px 2px 4px rgba(0, 0, 0, 0.15);
     --padrao: 'Poppins', sans-serif;
+    --texto: 1.8rem;
     --texto-regular: 400;
     --texto-medio: 500;
-    --texto-bold: 600;
+    --texto-bold: 700;
 }

@@ -1,38 +1,85 @@
 @import url(base.css);
-body{
-    height: 100vh;
-    width: 100%;
-    box-sizing: border-box;
+@import url(reset.css);
+body {
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-color: var(--verde-principal-escuro);
+  font-family: var(--padrao);
+}
+p strong {
+  font-weight: var(--texto-bold);
+}
+
+.cabecalho {
+  box-sizing: border-box;
+  border-bottom: 2px solid var(--branco-transparente);
+}
+.cabecalho figure {
+  display: inline-block;
+}
+.cabecalho figure:nth-child(1) {
+  border-right: 2px solid var(--branco-transparente);
+}
+.cabecalho figure:nth-child(2) {
+  margin-left: 2px;
+}
+.container {
+  width: 60%;
+  box-sizing: inherit;
+  margin: 1rem 18rem 1rem 15rem;
+}
+.secaoDetalhesConta {
+  color: var(--branco);
+
+  display: flex;
+  flex-direction: column;
+}
+.secaoDetalhesConta__sobreUsuario {
+  display: flex;
+  justify-content: space-between;
+  
+  margin: 2rem 0;
+  padding-bottom: 2rem;
+
+  width: 100%;
+
+  border-bottom: 2px solid var(--preto-transparente);
+
+  box-sizing: inherit;
+}
+.secaoDetalhesConta__areaUsuario {
+  width: 50%;
+  box-sizing: inherit;
+
+  display: flex;
+  align-items: center;
+
+  font-size:var(--texto);
+  text-justify: distribute-all-lines;
+}
+.secaoDetalhesConta__areaUsuario img {
+  height: 80px;
+  width: 80px;
+  margin-right: 1rem;
+}
+.secaoDetalhesConta__servicoUsuario {
+  display: flex;
+  gap: 3rem;
+}
+.secaoDetalhesConta__servicoUsuario img {
+  height: 54px;
+  width: 54px;
+
+  cursor: pointer;
+}
+.secaoDetalhesConta__sobreSaldo{
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
-
-    background-color: var(--verde-principal-escuro);
-    font-family: var(--padrao);
+    font-size:var(--texto);
 }
-
-.cabecalho{
-    box-sizing: border-box;    
-    border-bottom: 2px solid var(--branco-transparente);
-}
-.cabecalho figure{
-    display: inline-block;
-    
-    
-}
-.cabecalho figure:nth-child(1){
-    border-right: 2px solid var(--branco-transparente) ;
-}
-.cabecalho figure:nth-child(2){
-   margin-left: 2px;
-}
-.container{
-    margin: 1rem 14rem 1rem 8rem; 
-}
-.secaoDetalhesConta{
-    color: var(--branco);
-}
-
-
-    
