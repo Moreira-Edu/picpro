@@ -1,0 +1,32 @@
+.secaoTransacao__pix{
+    box-sizing: inherit;
+
+    width: 65%;
+
+    padding: 7rem 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+.secaoTransacao__pix img{
+    height: 70px;
+    width: 200px;
+}
+.secaoTransacao__boxOpcao{
+    box-sizing: inherit;
+
+    padding: 1rem;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border: 2px solid var(--cinza-claro-borda);
+    border-radius: var(--borda-curva);
+}
+.secaoTransacao__boxOpcao img{
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+}

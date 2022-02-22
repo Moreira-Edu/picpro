@@ -1,5 +1,7 @@
 @import url(base.css);
 @import url(reset.css);
+@import url(secaoQrCode.css);
+@import url(secaoPix.css);
 body {
   height: 100vh;
   width: 100%;
