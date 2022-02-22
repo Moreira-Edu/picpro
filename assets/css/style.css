@@ -2,6 +2,7 @@
 @import url(reset.css);
 @import url(secaoQrCode.css);
 @import url(secaoPix.css);
+@import url(secaoBoleto.css);
 body {
   height: 100vh;
   width: 100%;
