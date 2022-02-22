@@ -1,0 +1,30 @@
+.secaoTransacao__cobrar{
+    box-sizing: border-box;
+
+    color: #2D2D2D;
+    padding: 5rem 0;
+    width: 75%;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+}
+.secaoTransacao__cobrar img{
+    height: 120px;
+    width: 120px;
+}
+.secaoTransacao__cobrar h2{
+    width: 120px;
+    margin-left: 1.8rem;
+
+    font-size: var(--texto);
+    font-weight: var(--texto-bold);
+}
+.secaoTransacao__cobrar p{
+    
+    font-size: var(--texto);
+    margin: 2rem 0 2rem 1.8rem;
+}
+.secaoTransacao__cobrar div{
+    box-shadow: var(--sombra);
+}

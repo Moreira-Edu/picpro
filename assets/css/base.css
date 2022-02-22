@@ -16,3 +16,6 @@
     --texto-bold: 700;
     --borda-curva:  1.222rem;
 }
+.invisivel{
+    display: none!important;
+  }

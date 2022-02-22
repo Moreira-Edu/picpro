@@ -1,8 +1,6 @@
-@import url(base.css);
 @import url(reset.css);
-@import url(secaoQrCode.css);
-@import url(secaoPix.css);
-@import url(secaoBoleto.css);
+@import url(base.css);
+
 body {
   height: 100vh;
   width: 100%;
@@ -35,7 +33,7 @@ p strong {
 .container {
   width: 50%;
   box-sizing: inherit;
-  margin: 1rem 18rem 1rem 15rem;
+  margin: 1rem 18rem 1rem 18rem;
 }
 .secaoDetalhesConta {
   color: var(--branco);
@@ -209,7 +207,4 @@ filter: invert(46%) sepia(22%) saturate(686%) hue-rotate(92deg) brightness(97%) 
 .rodade__menuItem {
   text-align: center;
   align-self: center;
-}
-.invisivel{
-  display: none;
 }
