@@ -37,9 +37,9 @@
           </div>
          
           <div class="secaoDetalhesConta__sobreSaldo">
-              <div>
+              <div class="secaoDetalhesConta__sobreSaldo-saldo">
                 <p>Saldo PicPay<br>
-                 <strong>R$ 0,00<span><img src="assets/img/visualizar.png" alt="icone de visualização do saldo"></span></strong></p>
+                 <strong>R$ 0,00<span><img src="assets/img/visualizar.png" alt="icone de visualização d"></span></strong></p>
               </div>
               
               <button>Extrato</button>
@@ -70,7 +70,7 @@
           <div class="container">
 
               <!-- div selecione forma de agamento -->
-              <div class="secaoTransacao__avisoSelecao">
+              <div class="secaoTransacao__avisoSelecao invisivel">
                   <p>Selecione a forma de pagamento</p>
                   <img src="./assets/img/banner.png" alt="Banner do picpay">
               </div>
@@ -84,7 +84,7 @@
               </div>
 
               <!-- div do pix -->
-              <div class="secaoTransacao__pix">
+              <div class="secaoTransacao__pix invisivel">
                   <img src="./assets/img/pix-logo.png" alt="Logo pix">
                   <div class="secaoTransacao__boxOpcao">
                       <img src="./assets/img/pix1.png" alt="Ícone opção pix">
@@ -97,7 +97,7 @@
               </div>
 
               <!-- div do boleto -->
-              <div class="secaoTransacao__boleto">
+              <div class="secaoTransacao__boleto invisivel">
                   <img src="./assets/img/boleto.png" alt="Imagem boleto">
                   <h2>Pagar com código de barras</h2>
                   <p>Você pode parcelar em até 12x no cartão ou usar seu saldo em carteira pra pagar à vista.</p>
@@ -105,7 +105,7 @@
               </div>
 
               <!-- div de cobrar -->
-              <div class="secaoTransacao__cobrar">
+              <div class="secaoTransacao__cobrar invisivel">
                   <img src="./assets/img/cobrar.png" alt="Ícone cobrar">
                   <h2>Cobrar</h2>
                   <p>Divida a conta com os amigos de forma fácil!</p>
@@ -116,67 +116,43 @@
               </div>
           </div>
       </section>
-
-      <!-- rodapé -->
-      <footer class="rodape">
-          <ul class="rodade__menuPrincipal">
-              <li class="rodade__menuItem">
-                  <a href="#">
-                      <img src="./assets/img/inicio.png" alt="Ícone início">
-                      <p>Início</p>
-                  </a>
-              </li>
-              <li class="rodade__menuItem">
-                  <a href="#">
-                      <img src="./assets/img/carteira-icon.png" alt="Ícone carteira">
-                      <p>Carteira</p>
-                  </a>
-              </li>
-              <li class="rodade__menuItem">
-                  <a href="#">
-                      <img src="./assets/img/pagar.png" alt="Ícone pagar">
-                      <p>Pagar</p>
-                  </a>
-              </li>
-              <li class="rodade__menuItem">
-                  <a href="#">
-                      <img src="./assets/img/notificacao.png" alt="Ícone notificacao">
-                      <p>Notificações</p>
-                  </a>
-              </li>
-              <li class="rodade__menuItem">
-                  <a href="#">
-                      <img src="./assets/img/bolsa.png" alt="Ícone bolsa">
-                      <p>Store</p>
-                  </a>
-              </li>
-          </ul>
-      </footer>
   </main>
-
+    <!-- rodapé -->
     <footer class="rodape">
-      <ul class="rodape_menuPrincipal">
-        <li class="rodape_menuItem">
-          <a href="#"><img src="assets/img/" alt="" /></a>
-          <p></p>
-        </li>
-        <li  class="rodape_menuItem">
-          <a href="#"><img src="assets/img/" alt="" /></a>
-          <p></p>
-        </li  class="rodape_menuItem">
-        <li>
-          <a href="#"><img src="assets/img/" alt="" /></a>
-          <p></p>
-        </li  class="rodape_menuItem">
-        <li>
-          <a href="#"><img src="assets/img/" alt="" /></a>
-          <p></p>
-        </li>
-        <li  class="rodape_menuItem">
-          <a href="#"><img src="assets/img/" alt="" /></a>
-          <p></p>
-        </li>
-      </ul>
+        <div class="container">
+        <ul class="rodade__menuPrincipal">
+            <li class="rodade__menuItem">
+                <a href="#">
+                    <img src="./assets/img/inicio.png" alt="Ícone início">
+                    <p>Início</p>
+                </a>
+            </li>
+            <li class="rodade__menuItem">
+                <a href="#">
+                    <img src="./assets/img/carteira-icon.png" alt="Ícone carteira">
+                    <p>Carteira</p>
+                </a>
+            </li>
+            <li class="rodade__menuItem">
+                <a href="#">
+                    <img src="./assets/img/pagar.png" alt="Ícone pagar">
+                    <p>Pagar</p>
+                </a>
+            </li>
+            <li class="rodade__menuItem">
+                <a href="#">
+                    <img src="./assets/img/notificacao.png" alt="Ícone notificacao">
+                    <p>Notificações</p>
+                </a>
+            </li>
+            <li class="rodade__menuItem">
+                <a href="#">
+                    <img src="./assets/img/bolsa.png" alt="Ícone bolsa">
+                    <p>Store</p>
+                </a>
+            </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
