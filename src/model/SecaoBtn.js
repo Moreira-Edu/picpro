@@ -10,7 +10,7 @@ export class SecaoBtn {
     return this._secoes;
   }
   mostrar() {
-    this._secoes.forEach((el) =>
+    this.secoes.forEach((el) =>
       el.id.toLowerCase().match(this._id)
         ? el.classList.remove("invisivel")
         : el.classList.add("invisivel")

@@ -87,6 +87,7 @@ p strong {
 
   font-size: var(--texto);
 }
+
 .secaoDetalhesConta__sobreSaldo button {
   font-weight: var(--texto-medio);
   color: var(--preto);
@@ -98,12 +99,20 @@ p strong {
   cursor: pointer;
 }
 .secaoDetalhesConta__sobreSaldo-saldo {
-  line-height: 2.3rem;
+ font-size: var(--texto);
 }
-.secaoDetalhesConta__sobreSaldo-saldo img {
-  height: var(--texto);
-  margin: 2px 0 0 18px;
-
+.olhinho {
+  margin-top: 4px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.olhinho strong {
+  
+  font-weight: var(--texto-bold);
+}
+.olhinho img {
+  
   cursor: pointer;
 }
 
@@ -134,6 +143,7 @@ p strong {
 }
 .secaoDetalhesConta__itemTransacao:hover {
   background-color: var(--branco);
+  color: var(--verde-principal);
 }
 .secaoDetalhesConta__itemTransacao img {
   height: 50px;
@@ -142,9 +152,6 @@ p strong {
 .secaoDetalhesConta__itemTransacao:hover img {
   filter: invert(46%) sepia(22%) saturate(686%) hue-rotate(92deg)
     brightness(97%) contrast(96%);
-}
-.secaoDetalhesConta__itemTransacao:hover p {
-  color: var(--verde-principal);
 }
 .secaoTransacao {
   box-sizing: inherit;
