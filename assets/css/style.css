@@ -99,7 +99,7 @@ p strong {
   cursor: pointer;
 }
 .secaoDetalhesConta__sobreSaldo-saldo {
- font-size: var(--texto);
+  font-size: var(--texto);
 }
 .olhinho {
   margin-top: 4px;
@@ -108,11 +108,9 @@ p strong {
   align-items: center;
 }
 .olhinho strong {
-  
   font-weight: var(--texto-bold);
 }
 .olhinho img {
-  
   cursor: pointer;
 }
 

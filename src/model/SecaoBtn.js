@@ -1,5 +1,8 @@
-export class SecaoBtn {
+export class ModelSecao {
   constructor(secoes) {
+    if (this.constructor == ModelSecao) {
+      throw new Error (`você não deveria instanciar um objeto tipo seção diretamente`);
+     }
     this._secoes = secoes;
     this._id;
   }
@@ -8,12 +11,5 @@ export class SecaoBtn {
   }
   get secoes() {
     return this._secoes;
-  }
-  mostrar() {
-    this.secoes.forEach((el) =>
-      el.id.toLowerCase().match(this._id)
-        ? el.classList.remove("invisivel")
-        : el.classList.add("invisivel")
-    );
   }
 }
