@@ -1,5 +1,45 @@
-/* @media screen and (min-width: 800){
+@media screen and (max-width: 600px){
+    
     .container{
-        margin: 0.5rem;
+        font-size: inherit;
+        padding: 0;
+        margin: 0;
+        width: 100%;
     }
-} */
+    .secaoDetalhesConta__sobreUsuario{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .secaoDetalhesConta__servicoUsuario{
+        align-self: flex-end;
+        margin-right: 2rem;
+    }
+    .secaoDetalhesConta__sobreSaldo{
+        padding: 0;
+        justify-content: space-evenly;
+    }
+    .secaoDetalhesConta__opcoesTransacoes{
+        width: 100%;
+        justify-content: space-evenly;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+    .secaoDetalhesConta__itemTransacao{
+        height: 158px;
+        width: 158px;
+        padding:0.8rem 1rem;
+    }
+    .secaoTransacao__avisoSelecao p{
+        padding: 1.8rem 1rem;
+    }
+    .rodade__menuPrincipal{
+        justify-content: space-around;
+        min-width: 80%;
+        padding: 0 0.3rem;
+    }
+    .rodade__menuPrincipal li:nth-child(3n-1){
+    }
+    .rodade__menuItem{
+        flex-shrink: 1;
+    }
+}
