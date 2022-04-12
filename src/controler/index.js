@@ -11,3 +11,5 @@ botoes.forEach((el) =>
     controler.mostrar();
   })
 );
+
+console.log(controler)
